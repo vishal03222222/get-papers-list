@@ -3,6 +3,9 @@ name = "get-papers-list"
 version = "0.1.0"
 description = "A Python program to fetch and filter research papers from PubMed."
 authors = ["Your Name <your.email@example.com>"]
+packages = [
+    { include = "get_papers_list" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
