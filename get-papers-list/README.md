@@ -22,6 +22,7 @@ A Python program to fetch and filter research papers from PubMed based on a user
 
     5.pip install requests pandas run  this command to install pandav to save in csv file
 
-    6. poetry run get-papers-list "diabetes" -f test.csv --debug run this command to fect the data from api and save the coomming data into csv file
+    6. poetry run get-papers-list "diabetes" -f test.csv --debug
+     run this command to fect the data from api and save the coomming data into csv file
 
     output will be in a csv format  u can see
